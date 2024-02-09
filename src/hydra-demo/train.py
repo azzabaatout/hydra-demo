@@ -1,7 +1,7 @@
 import hydra
 from omegaconf import DictConfig
 
-@hydra.main(config_path='../project_config', config_name='app_config')
+@hydra.main(config_path='../../project_config', config_name='app_config')
 def train_model(cfg: DictConfig):
     # Training logic here
     print(f"Training with learning_rate={cfg.model.learning_rate}, "

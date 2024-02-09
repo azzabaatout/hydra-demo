@@ -3,7 +3,7 @@ from omegaconf import DictConfig
 
 
 # add config path and config name with hydra
-@hydra.main(config_path="../project_config", config_name="app_config")
+@hydra.main(config_path="../../project_config", config_name="app_config")
 def my_app(cfg: DictConfig) -> None:
     print(cfg)
 
