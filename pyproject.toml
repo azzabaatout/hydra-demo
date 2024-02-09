@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hydra-demo"
+version = "0.1.0"
+description = ""
+authors = ["Baatout, Azza <Azza.Baatout@adesso.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+hydra-core = "^1.3.2"
+omegaconf = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

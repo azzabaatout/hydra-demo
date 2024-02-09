@@ -1,0 +1,6 @@
+# Remote environment configurations
+db:
+  user: remoteuser
+  password: remotepassword
+  host: remotedb.example.com
+  port: 3306

@@ -1,0 +1,4 @@
+# Local environment configurations
+db:
+  user: localuser
+  password: localpassword

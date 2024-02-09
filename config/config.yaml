@@ -1,0 +1,7 @@
+defaults:
+  - _self_
+
+model:
+  learning_rate: 0.01
+  batch_size: 32
+  optimizer: SGD
