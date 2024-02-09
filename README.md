@@ -83,6 +83,8 @@ Setting up dynamic tab completion involves configuring your shell environment an
 Hydra's Multi-Run feature is ideal for batch processing or extensive testing. It simplifies executing multiple runs with different configurations.
 
 ### Example
+`python train.py -m model.learning_rate=0.01,0.001 -m model.optimizer=SGD,Adam`
+
 Running multiple training jobs with varying learning rates and optimizers:
 1. Learning rate = 0.01, Optimizer = SGD
 2. Learning rate = 0.01, Optimizer = Adam
