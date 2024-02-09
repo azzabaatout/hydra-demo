@@ -8,7 +8,7 @@ from simple_net import SimpleNet
 
 @hydra.main(config_path='../../project_config', config_name='app_config')
 def train_model(cfg: DictConfig):
-    train_dataset = ...  # Replace with your dataset
+    train_dataset = hydra.utils.instantiate(cfg.dataset)
     train_loader = DataLoader(train_dataset, batch_size=cfg.model.batch_size, shuffle=True)
 
     model = SimpleNet()
